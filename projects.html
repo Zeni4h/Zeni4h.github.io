@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Projects — Murodulla Sobirov</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <img src="profile_photo.JPG" alt="Murodulla Sobirov" class="avatar" />
+      <div class="brand-text">
+        <h1 class="site-title">Murodulla Sobirov</h1>
+        <p class="subtitle">Data Analyst • Data Engineer • Learner</p>
+      </div>
+    </div>
+    <nav class="nav" id="nav">
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="experience.html" class="nav-link">Experience</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+      </ul>
+  <div id="clock" class="clock" aria-label="Budapest time" title="Budapest time">--:--</div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section alt-bg">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="power_bi.jpeg" alt="Power BI Dashboard" class="project-thumb" />
+          <div class="project-body">
+            <h3>Power BI Dashboard</h3>
+            <p>Power BI dashboard for visualizing sales data by loading and transforming data from xlsx files using Power Query and Power BI.</p>
+            <div class="project-actions">
+              <a href="#" class="btn">View</a>
+              <a href="#" class="btn secondary">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="fabric_project.png" alt="Fabric Data Pipeline" class="project-thumb" />
+          <div class="project-body">
+            <h3>Fabric Data Pipeline</h3>
+            <p>Microsoft Fabric solution for integrating and analyzing data across various sources, providing real-time insights and reporting capabilities.</p>
+            <div class="project-actions">
+              <a href="#" class="btn">Live</a>
+              <a href="#" class="btn secondary">Repo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Murodulla Sobirov. Built with HTML, CSS & JavaScript.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
